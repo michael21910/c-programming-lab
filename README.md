@@ -30,4 +30,4 @@ The problems are [here](http://134.208.3.66/problems?keyword=PR&page=1)
         * Output: An largest even number less than or equal to n.
 
 ## License
-[MIT](LICENSE) © Tsuen Hsueh
+None License
