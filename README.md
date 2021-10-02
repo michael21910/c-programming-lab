@@ -1,6 +1,6 @@
 # C Programming Lab
-Implementation using C in programming lab class when being Teacher Assistant.
-The problems are [here](http://134.208.3.66/problems?keyword=PR&page=1)
+Implementation using C in programming lab class when being Teacher Assistant.  
+The problems are [here](http://134.208.3.66/problems?keyword=PR&page=1)  
   
 ## Problems and Description
 * [Week2](Week2)
