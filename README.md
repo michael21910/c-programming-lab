@@ -91,6 +91,29 @@ The problems are [here](http://134.208.3.66/problems?keyword=PR&page=1)
         * Description: There is snail climbing on the wall from bottom, wall is 10 meter height. every day the snail climb up 4 meter, and slide down 3 meter at the night. In day 7 the snail climb up to the top of the wall. Please write a program, read in height of the wall, how many meter the snail climb up a day, how many meter the snail slide down at night, give the answer of which day the snail climb up to the top of the wall.
         * Input: Input consist three integer, first is height of the wall, second is meter of snail climb up a day, third is meter the snail slide down at night.
         * Output: Out a number represent in which day the snail will climb to top of the wall. Output -1 if the snail can never climb up the top.
+* [Week6](Week6)
+    * [week6-1](Week6/week6-1.c)
+        * Description: A truncated mean or trimmed mean is a statistical measure of central tendency, much like the mean and median. It involves the calculation of the mean after discarding given parts of a probability distribution or sample at the high and low end, and typically discarding an equal amount of both. This number of points to be discarded is usually given as a percentage of the total number of points, but may also be given as a fixed number of points.Write a program calculate trimmed mean with discarding 3 number from high and low.
+        * Input: Input start with a integer N(N > 6) represent the number of sample, fellow by N integer represent the sample.
+        * Output: Output trimmed mean round down to second decimal place
+    * [week6-2](Week6/week6-2.c)
+        * Description: Giving 10 number, output them in ascending order.
+        * Input: Input consist 10 integer, each of them separate by a single space.
+        * Output: output the 10 number inascending order.
+    * [week6-3](Week6/week6-3.c)
+        * Description: Write a program to determine if a string is apalindrome or not.
+        * Input: Input string will include only letter,please consider uppercase and lowercase as the same.
+        * Output: Please refer to the sample output.
+    * [week6-4](Week6/week6-4.c)
+        * Description: An electoral system is a set of rules that determine how elections and referendums are conducted and how their results are determined. For a single-winner election, we have two different electoral systems, please write a program to detect which candidate wins the election.:
+            * majoritarian system: candidate have to receive a majority (more than half) of the votes to be elected. 
+            * plurality system: candidate with the highest number of votes wins, with no requirement to get a majority of votes. 
+        * Input: Input file consists several test cases.Each test case consists 2 lines of data. First line is 2 integers n and m, shows the number of candidates and the number of votes. Second line consists m integers, shows the votes. Candidates are numbered by integers [1, n]. 1 < n < 200. 1 <= m <= 1000000. n = m = 0 shows end of test cases.
+        * Output: Output of each test case occupy one line.If there are no single-winner, output "No winner". If the winner may win a majoritarian election, output "Majoritarian winner" and the winner. If the winner can only win a plurality election, output "Plurality winner" and the winner.
+    * [week6-5](Week6/week6-5.c)
+        * Description: During their honeymoon, Mrs and Mr Smith went to the Himalayas. How they were surprised when they observed that, during the sunset, all the snow touched by the sunbeams turned red.Such a magnificent landscape leaves everyone plenty of emotion, but Mr Smith’s number obsession overcame all this. He rapidly began evaluating distances, which made Mrs Smith quite upset.Your work is to help him calculate the size, in meters, of the mountainsides that became red as the sun sets. Mr Smith’s honeymoon depends on you! Please be quick and efficient.For the sake of simplicity, consider that, during the sunset, the sunbeams are horizontal and assume that the landscape is described by the set of coordinates of the mountain peaks and cols. This can be depicted by the following figure. A landscape, in this context, is then a sequence of peaks and cols (i.e.,only a col follows a peak and conversely). Note that, in this picture, the sunny mountainsides are emphasized by bold lines and the coordinates of the landscape are emphasized by bold points.Thus, the goal of this problem is to calculate the total length in meters of the bold lines.For this task consider that: (1) for all coordinates (x, y), 0 ≤ x ≤ 30000 and 0 ≤ y ≤ 8848; (2)the unit is the meter; (3) all the X-coordinates are pair-wise distinct; (4) the leftmost point has 0 as X-coordinate and the rightmost point has 0 as Y-coordinate; (5) The total number of coordinates given is n ≤ 100.
+        * Input: The first line of input contains C (0 < C < 100), the number of test cases that follows.Each test case starts with a line containing the number N of coordinate pairs. The remaining N lines for each test case contain the coordinates defining the landscape. Each of these lines contains two integers, x and y, separated by a single space. The first integer, x, is the X-coordinate, and the second,y, is the Y-coordinate of the considered point.
+        * Output: The output is formed by a sequence of lines, one for each test case. Each line contains a single realnumber with exactly two decimal digits. This number represents the length in meters of the sunnymountainsides for the corresponding test case.
 
 ## License
 None License
