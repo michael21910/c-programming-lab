@@ -131,6 +131,13 @@ The problems are [here](http://134.208.3.66/problems?keyword=PR&page=1)
         * Description: You have 2 tables,coursesandscores.coursesconsists 3 columns,sid,student_id, andcourse_id.scoresconsists 2 columns,sidandscore. Please find that how many students failed on at least one course.
         * Input: First line consists 2 integers m and n, shows number of rows incoursesandscores. Followed m lines are records ofcourses.student_idare 8-digits numbers begin with non-zero digit.sidandscoresare positive integers smaller than 1000. Followed n lines are records ofscores.sidare positive integers smaller than 1000.scoreare integers in range [0, 100].
         * Output: Student will be flunked when his/her average score in the course less than 60. Output is 2 integers shows number of student and student failed on at lease one course.
+* [Week9](Week9)
+    * [week9-1](Week9/week9-1.c)
+        * Description: Finish the following function. The function compare two number a and b, return 1 if a > b, return -1 if a < b, return 0 if a = b.
+    * [week9-2](Week9/week9-2.c)
+        * Description: Finish the following function. The function swap two number a and b.
+    * [week9-3](Week9/week9-3.c)
+        * Description: Finish the following function. The function sort the first n element in array inascending order.
 
 ## License
 None License
