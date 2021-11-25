@@ -138,6 +138,13 @@ The problems are [here](http://134.208.3.66/problems?keyword=PR&page=1)
         * Description: Finish the following function. The function swap two number a and b.
     * [week9-3](Week9/week9-3.c)
         * Description: Finish the following function. The function sort the first n element in array inascending order.
+* [Week10](Week10)
+    * [week10-1](Week10/week10-1.c)
+        * Description: Please finish function elementAt. There are two parameter  in elementAt, a pointer point to an integer and a integer n(n > 0). Function elementAt return the nth integer after the pointer.
+    * [week10-2](Week10/week10-2.c)
+        * Description: Please finish function between. Function between have two parameter a and b which are both the pointer point to integer. Function between return the summation of all integer after pointer a and before pointer b.
+    * [week10-3](Week10/week10-3.c)
+        * Description: Please finish function merger. There are three parameter in function merger, a, b and c, all of them are pointer point to integer. Function merger will take five integer after pointer a and five integer after pointer b and puts them after pointer c by increasing order.
 
 ## License
 None License
